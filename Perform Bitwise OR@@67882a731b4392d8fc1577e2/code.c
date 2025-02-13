@@ -2,11 +2,6 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a||b){
-        printf("True");
-    }
-    else{
-        printf("False");
-    }
+    printf("%d | %d = %d",a,b,a|b);
     return 0;
 }
