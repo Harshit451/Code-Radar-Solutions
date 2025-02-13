@@ -2,11 +2,12 @@
 
 int main() {
     int num;
-    scanf("%x", &num);  // User enters hex (e.g., "1A")
+    scanf("%d", &num);
 
-    // Output in hexadecimal
-    printf("Hexadecimal (lowercase): %x\n", num);
-    printf("Hexadecimal (uppercase): %X\n", num);
+    // Output in hex and octal
+    printf("Hexadecimal: %x\n", num);  // Lowercase hex
+    printf("Hexadecimal: %X\n", num);  // Uppercase hex
+    printf("Octal: %o\n", num);        // Octal
 
     return 0;
 }
