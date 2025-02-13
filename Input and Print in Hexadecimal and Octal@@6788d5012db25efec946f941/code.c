@@ -2,9 +2,6 @@
 
 int main() {
     int num;
-
-    // Input in hexadecimal
-    printf("Enter a hexadecimal number: ");
     scanf("%x", &num);  // User enters hex (e.g., "1A")
 
     // Output in hexadecimal
