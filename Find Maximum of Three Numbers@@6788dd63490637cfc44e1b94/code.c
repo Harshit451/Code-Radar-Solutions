@@ -11,8 +11,5 @@ int main(){
     else if(c>b && c>a){
         printf("%d",c);
     }
-    else{
-        printf("Invalid input");
-    }
     return 0;
 }
