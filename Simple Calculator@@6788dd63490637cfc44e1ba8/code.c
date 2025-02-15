@@ -4,7 +4,7 @@ int main(){
     char sign;
     scanf("%d %d %c",&a,&b,&sign);
     if(sign== '+'){
-        printf("%d",a + b);
+        printf("%d",(a + b));
     }
     else if(sign== '-'){
         printf("%d",a - b);
