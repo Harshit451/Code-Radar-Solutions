@@ -17,10 +17,10 @@ int main() {
     scanf("%d", &num);
     // Checking even or odd using division logic
     if ((num / 2) * 2 == num) {
-        printf("%d is Even\n", num);
+        printf("Even\n");
     } 
     else {
-        printf("%d is Odd\n", num);
+        printf("Odd\n");
     }
     return 0;
 }
