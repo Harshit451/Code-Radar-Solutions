@@ -11,8 +11,8 @@ int main(){
     else if(a==0){
         printf("Zero");
     }
-    else{
-        printf("Wrong input");
-    }
+    // else{
+    //     printf("Wrong input");
+    // }
     return 0;
 }
