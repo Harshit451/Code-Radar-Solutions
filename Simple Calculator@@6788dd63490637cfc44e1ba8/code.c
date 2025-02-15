@@ -4,16 +4,16 @@ int main(){
     char sign;
     scanf("%lf %lf %c",&a,&b,&sign);
     if(sign== '+'){
-        printf("%.2lf",a + b);
+        printf("%lf",a + b);
     }
     else if(sign== '-'){
-        printf("%.2lf",a - b);
+        printf("%lf",a - b);
     }
     else if(sign== '*'){
-        printf("%.2lf",a * b);
+        printf("%lf",a * b);
     }
     else if(sign== '/'){
-        printf("%.2lf",a / b);
+        printf("%lf",a / b);
     }
     else{
         printf("Error");
