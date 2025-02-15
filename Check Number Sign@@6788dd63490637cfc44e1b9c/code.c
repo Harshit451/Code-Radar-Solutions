@@ -19,10 +19,10 @@ int main() {
     double num;
     scanf("%lf", &num);
     if (num > 0) {
-        printf("%.2lfPositive\n", num);
+        printf("Positive\n", num);
     } 
     else if (num < 0) {
-        printf("%.2lfNegative\n", num);
+        printf("Negative\n", num);
     } 
     else {
         printf("Zero\n");
