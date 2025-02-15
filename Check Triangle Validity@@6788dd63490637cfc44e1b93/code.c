@@ -3,10 +3,10 @@ int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
     if(a+b>c && c+b>a && c+a>b){
-        printf("Valid");
+        printf("Valid\n");
     }
     else{
-        printf("Invalid");
+        printf("Invalid\n");
     }
     return 0;
 }
