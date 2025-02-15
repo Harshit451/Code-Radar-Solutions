@@ -8,13 +8,13 @@ int main(){
     else if(marks<90 && marks>=80){
         printf("B");
     }
-    if(marks<80 && marks>=70){
+    else if(marks<80 && marks>=70){
         printf("C");
     }
-    if(marks<70 && marks>=60){
+    else if(marks<70 && marks>=60){
         printf("D");
     }
-    if(marks<60 && marks<=0){
+    else if(marks<60 && marks>=0){
         printf("F");
     }
     return 0;
