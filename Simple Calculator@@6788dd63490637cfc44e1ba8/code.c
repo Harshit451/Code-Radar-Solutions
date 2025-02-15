@@ -20,8 +20,8 @@ int main(){
                 printf("error");
             }
     }
-    else{
-        printf("Error");
-    }
+    // else{
+    //     printf("Error");
+    // }
     return 0;
 }
