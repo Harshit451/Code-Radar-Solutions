@@ -3,7 +3,7 @@
 void fibonacciSeries(int n) {
     int a = 0, b = 1, next;
 
-    printf("%d ", n);
+    // printf("%d", n);
 
     while (a <= n) {
         printf("%d ", a);
