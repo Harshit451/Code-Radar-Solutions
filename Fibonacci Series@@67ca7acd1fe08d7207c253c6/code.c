@@ -15,13 +15,13 @@ void fibonacciSeries(int n) {
     printf("\n");
 }
 
-int main() {
-    int n;
+// int main() {
+//     int n;
     
-    printf("Enter the value of n: ");
-    scanf("%d", &n);
+//     printf("Enter the value of n: ");
+//     scanf("%d", &n);
 
-    fibonacciSeries(n);
+//     fibonacciSeries(n);
 
-    return 0;
-}
+//     return 0;
+// }
