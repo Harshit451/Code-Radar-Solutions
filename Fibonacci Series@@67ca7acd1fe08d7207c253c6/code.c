@@ -14,6 +14,7 @@ void fibonacciSeries(int n) {
     }
 
     printf("\n");
+    fibonacciSeries(n);
 }
 
 // int main() {
