@@ -5,7 +5,7 @@ void fibonacciSeries(int n) {
 
     // printf("Fibonacci Series up to %d: ", n);
 
-    while (a <= n) {
+    while (a < n) {
         printf("%d ", a);
         next = a + b;  // Compute next Fibonacci number
         a = b;
