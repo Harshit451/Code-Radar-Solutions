@@ -8,6 +8,7 @@ void fibonacciSeries(int n) {
     while (a < n) {
         printf("%d ", a);
         next = a + b;  // Compute next Fibonacci number
+        if(next>=n) break;
         a = b;
         b = next;
     }
