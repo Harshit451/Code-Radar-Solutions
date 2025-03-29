@@ -24,7 +24,6 @@ void fibonacciSeries(int n) {
     // }
 
     printf("\n");
-    fibonacciSeries(n);
 }
 
 // int main() {
@@ -33,6 +32,7 @@ void fibonacciSeries(int n) {
 //     printf("Enter the value of n: ");
 //     scanf("%d", &n);
 
+//     fibonacciSeries(n);
 
 //     return 0;
 // }
