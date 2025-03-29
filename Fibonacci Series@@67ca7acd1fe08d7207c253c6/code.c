@@ -1,9 +1,9 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 void fibonacciSeries(int n) {
     int a = 0, b = 1, next;
 
-    printf("%d", n);
+    printf("Fibonacci Series up to %d: ", n);
 
     while (a <= n) {
         printf("%d ", a);
